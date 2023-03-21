@@ -28,7 +28,7 @@ jobs:
       - name: Github Action for LaTeX
         uses: xu-cheng/latex-action@v2
         with:
-          root-file: |
+          root_file: |
             TOR-2023-02.tex
 
       # Runs a single command using the runners shell
